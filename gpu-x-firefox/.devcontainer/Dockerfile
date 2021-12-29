@@ -9,5 +9,5 @@ RUN distribution=$(. /etc/os-release;echo $ID$VERSION_ID) && \
      curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
 
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-     && apt-get -y install --no-install-recommends nvidia-docker2 \ firefox \
+     && apt-get -y install --no-install-recommends nvidia-docker2 firefox \
      libglfw3 libegl1 libpci3
