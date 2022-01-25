@@ -8,6 +8,7 @@
 		// Use Debian 11, Debian 9, Ubuntu 18.04 or Ubuntu 21.04 on local arm64/Apple Silicon
 		"args": { "VARIANT": "ubuntu-20.04" }
 	},
+	"mounts": ["source=${localWorkspaceFolder}/.eaglemode,target=/home/vscode/.eaglemode,type=bind,consistency=cached"],
 	"runArgs": ["--net", "host",
 		"--gpus", "all",
         "-e", "DISPLAY=${env:DISPLAY}",

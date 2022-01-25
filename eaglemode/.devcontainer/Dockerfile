@@ -10,7 +10,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
      && apt-get -y install --no-install-recommends \
      libx11-dev libvlc-dev libjpeg-dev libgtk2.0-dev \ 
      librsvg2-dev libtiff-dev libwebp-dev libtiff5-dev \
-     libpoppler-glib-dev libgs9 build-essential 
+     libpoppler-glib-dev libgs9 build-essential xterm
 
 WORKDIR /home/vscode/src
 
@@ -20,3 +20,7 @@ RUN curl -L -o ./eaglemode.tar.bz2 http://downloads.sourceforge.net/eaglemode/ea
 WORKDIR eaglemode
 
 RUN perl make.pl build continue=yes && perl make.pl install bin=yes
+
+COPY --chown=vscode:vscode home* /home/vscode
+
+RUN echo "alias enhance='eaglemode -visit ::FS::\$(echo \$PWD|sed \"s/\//::/g\")'" >> /home/vscode/.bashrc
