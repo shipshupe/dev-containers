@@ -1,0 +1,60 @@
+#%rec:emBookmarks%#
+
+Bookmark: {
+	Name = "Help"
+	Description = "This brings you to the documentation area."
+	Icon = "help.tga"
+	Hotkey = "F1"
+	LocationIdentity = ":"
+	LocationRelX = -0.36326
+	LocationRelY = -0.37791
+	LocationRelA = 0.00621
+}
+
+Bookmark: {
+	Name = "Home"
+	Description = "This brings you to your home directory."
+	Icon = "home.tga"
+	Hotkey = "F6"
+	LocationIdentity = "::FS::::home::vscode"
+	VisitAtProgramStart = yes
+}
+
+Bookmark: {
+	Name = "Root"
+	Description = "This brings you to the root directory of the file system."
+	Icon = "root.tga"
+	Hotkey = "F7"
+	LocationIdentity = "::FS::"
+}
+
+Bookmark: {
+	Name = "Virtual Cosmos"
+	Icon = "virtual_cosmos.tga"
+	Hotkey = "F8"
+	LocationIdentity = ":"
+}
+
+Bookmark: {
+	Name = "Chess"
+	Icon = "silchess.tga"
+	LocationIdentity = "::Chess1:"
+}
+
+Bookmark: {
+	Name = "Mines"
+	Icon = "mines.tga"
+	LocationIdentity = "::Mines1:"
+}
+
+Bookmark: {
+	Name = "Netwalk"
+	Icon = "netwalk.tga"
+	LocationIdentity = "::Netwalk1:"
+}
+
+Bookmark: {
+	Name = "Clock"
+	Icon = "clock.tga"
+	LocationIdentity = "::Clock1:"
+}
