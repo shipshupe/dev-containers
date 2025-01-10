@@ -32,4 +32,4 @@ if (! -d $dir) {
 }
 ChDirOrError($dir);
 
-ExecOrError('xterm');
+ExecOrError('sakura');
