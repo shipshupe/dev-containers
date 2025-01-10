@@ -1,0 +1,5 @@
+#%rec:emMainConfig%#
+
+AutoHideControlView = no
+AutoHideSlider = no
+ControlViewSize = 1.0

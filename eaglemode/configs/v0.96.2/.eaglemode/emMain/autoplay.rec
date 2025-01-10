@@ -1,0 +1,7 @@
+#%rec:emAutoplay%#
+
+DurationMS = 5000
+Recursive = no
+Loop = no
+LastLocationValid = no
+LastLocation = ""

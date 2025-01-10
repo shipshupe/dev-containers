@@ -8,11 +8,15 @@
 		// Use Debian 11, Debian 9, Ubuntu 18.04 or Ubuntu 21.04 on local arm64/Apple Silicon
 		"args": { "VARIANT": "ubuntu-20.04" }
 	},
-	"mounts": ["source=${localWorkspaceFolder}/.eaglemode,target=/home/vscode/.eaglemode,type=bind,consistency=cached"],
+	"mounts": ["source=${localWorkspaceFolder}/configs/v0.96.2/.eaglemode,target=/home/vscode/.eaglemode,type=bind,consistency=cached",
+	 		   //"type=bind,source=/home/${localEnv:USER}/.ssh,target=/home/vscode/.ssh,readonly"
+			],
 	"runArgs": ["--net", "host",
 		"--gpus", "all",
         "-e", "DISPLAY=${env:DISPLAY}",
-        "-v", "/tmp/.X11-unix:/tmp/.X11-unix"],
+        "-v", "/tmp/.X11-unix:/tmp/.X11-unix"
+	],
+		
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},

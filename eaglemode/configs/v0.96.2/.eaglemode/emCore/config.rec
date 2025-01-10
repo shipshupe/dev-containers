@@ -1,0 +1,20 @@
+#%rec:emCoreConfig%#
+
+StickMouseWhenNavigating = no
+EmulateMiddleButton = yes
+PanFunction = yes
+MouseZoomSpeed = 1.0
+MouseScrollSpeed = 1.0
+MouseWheelZoomSpeed = 1.0
+MouseWheelZoomAcceleration = 1.0
+KeyboardZoomSpeed = 1.0
+KeyboardScrollSpeed = 1.0
+KineticZoomingAndScrolling = 1.0
+MagnetismRadius = 0.353553391
+MagnetismSpeed = 1.0
+VisitSpeed = 1.0
+MaxMegabytesPerView = 1024
+MaxRenderThreads = 8
+AllowSIMD = yes
+DownscaleQuality = 3
+UpscaleQuality = 5

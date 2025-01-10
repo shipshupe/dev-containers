@@ -1,8 +1,8 @@
 #%rec:emFileManConfig%#
 
-SortCriterion = SORT_BY_DATE
+SortCriterion = SORT_BY_NAME
 NameSortingStyle = NSS_PER_LOCALE
-SortDirectoriesFirst = yes
+SortDirectoriesFirst = no
 ShowHiddenFiles = yes
-ThemeName = "Night3"
+ThemeName = "Simple3"
 Autosave = yes

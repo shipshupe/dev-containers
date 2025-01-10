@@ -1,0 +1,16 @@
+#%rec:emStocksConfig%#
+
+ApiScript = ""
+ApiScriptInterpreter = "perl"
+ApiKey = ""
+WebBrowser = "firefox"
+AutoUpdateDates = no
+TriggeringOpensWebPage = no
+ChartPeriod = PT_1_YEAR
+MinVisibleInterest = LOW
+VisibleCountries = {}
+VisibleSectors = {}
+VisibleCollections = {}
+Sorting = SORT_BY_NAME
+OwnedSharesFirst = no
+SearchText = ""
