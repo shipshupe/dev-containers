@@ -14,7 +14,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 
 WORKDIR /home/vscode/src
 
-RUN curl -L -o ./eaglemode.tar.bz2 http://downloads.sourceforge.net/eaglemode/eaglemode-0.95.1.tar.bz2 && \
+RUN curl -L -o ./eaglemode.tar.bz2 http://downloads.sourceforge.net/eaglemode/eaglemode-0.96.2.tar.bz2 && \
      mkdir eaglemode && tar -xvjf ./eaglemode.tar.bz2 -C eaglemode --strip-components 1
 
 WORKDIR eaglemode
