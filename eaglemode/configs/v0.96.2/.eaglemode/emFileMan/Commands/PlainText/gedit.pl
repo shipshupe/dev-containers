@@ -19,4 +19,4 @@ use strict;
 use warnings;
 BEGIN { require "$ENV{'EM_DIR'}/res/emFileMan/scripts/cmd-util.pl"; }
 
-OpenTargetFilesWith('gedit');
+OpenTargetFilesWith('code');
