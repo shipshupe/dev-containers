@@ -23,4 +23,6 @@ RUN perl make.pl build continue=yes && perl make.pl install bin=yes
 
 COPY --chown=vscode:vscode home* /home/vscode
 
-RUN echo "alias enhance='eaglemode -visit ::FS::\$(echo \$PWD|sed \"s/\//::/g\")'" >> /home/vscode/.bashrc
+RUN apt-get -y install --no-install-recommends sakura
+
+RUN echo "alias enhance='eaglemode -visit ::FS::\$(echo \$PWD|sed \"s/\//::/g\")'" >> /home/vscode/.zshrc
